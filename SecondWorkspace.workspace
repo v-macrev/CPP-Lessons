@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="SecondWorkspace" Database="" Version="10000">
-  <Project Name="Template" Path="Project/Project.project" Active="No"/>
-  <Project Name="Project" Path="Project02/Project02.project" Active="Yes"/>
+  <Project Name="Project01" Path="Project02/Project02.project" Active="Yes"/>
+  <Project Name="Project02" Path="Project02/Project02.project" Active="No"/>
+  <Project Name="Project" Path="Project01/Project.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
-      <Project Name="Template" ConfigName="Debug"/>
-      <Project Name="Project" ConfigName="Debug"/>
+      <Project Name="Project01" ConfigName="Debug"/>
+      <Project Name="Project01" ConfigName="Debug"/>
+      <Project Name="Project02" ConfigName="Debug"/>
+      <Project Name="Project01" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
-      <Project Name="Template" ConfigName="Release"/>
-      <Project Name="Project" ConfigName="Release"/>
+      <Project Name="Project01" ConfigName="Release"/>
+      <Project Name="Project01" ConfigName="Release"/>
+      <Project Name="Project02" ConfigName="Release"/>
+      <Project Name="Project01" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

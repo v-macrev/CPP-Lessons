@@ -1,4 +1,0 @@
--ID:\Notebook\Personal\SecondWorkspace\Project
--std=c++17
--target
-

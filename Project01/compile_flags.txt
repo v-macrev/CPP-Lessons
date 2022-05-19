@@ -1,0 +1,4 @@
+-ID:\Notebook\Personal\SecondWorkspace\Project01
+-std=c++17
+-target
+

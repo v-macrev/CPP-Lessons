@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Template" <<  std::endl;
+    std::cout << "Hello Project 02" <<  std::endl;
     return 0;
 }
