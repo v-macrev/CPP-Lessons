@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="Template" Version="11000" InternalType="Console">
+<CodeLite_Project Name="Project" Version="11000" InternalType="User templates">
   <Description/>
   <Dependencies/>
-  <VirtualDirectory Name="src">
-    <File Name="main.cpp"/>
-  </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
@@ -95,4 +92,7 @@
       </Completion>
     </Configuration>
   </Settings>
+  <VirtualDirectory Name="src">
+    <File Name="main.cpp"/>
+  </VirtualDirectory>
 </CodeLite_Project>
