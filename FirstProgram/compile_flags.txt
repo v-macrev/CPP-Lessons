@@ -1,0 +1,4 @@
+-ID:\Notebook\Personal\SecondWorkspace\FirstProgram
+-std=c++14
+-target
+
