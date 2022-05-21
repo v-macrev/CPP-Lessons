@@ -6,18 +6,18 @@
 ProjectName            :=FirstProgram
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=D:/Notebook/Personal/SecondWorkspace
-ProjectPath            :=D:/Notebook/Personal/SecondWorkspace/FirstProgram
+WorkspacePath          :=C:/GitHub/SecondWorkspace
+ProjectPath            :=C:/GitHub/SecondWorkspace/FirstProgram
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=Regenera
+User                   :=victo
 Date                   :=19/05/2022
 CodeLitePath           :="C:/Program Files/CodeLite"
-LinkerName             :="C:/Program Files/mingw64/bin/g++.exe"
-SharedObjectLinkerName :="C:/Program Files/mingw64/bin/g++.exe" -shared -fPIC
+LinkerName             :=C:/mingw64/bin/g++.exe
+SharedObjectLinkerName :=C:/mingw64/bin/g++.exe -shared -fPIC
 ObjectSuffix           :=.o
 DependSuffix           :=.o.d
 PreprocessSuffix       :=.i
@@ -38,7 +38,7 @@ ObjectsFileList        :="FirstProgram.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
-RcCompilerName         :="C:/Program Files/mingw64/bin/windres.exe"
+RcCompilerName         :=C:/mingw64/bin/windres.exe
 LinkOptions            :=  -static
 IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). 
 IncludePCH             := 
@@ -51,13 +51,13 @@ LibPath                := $(LibraryPathSwitch).
 ## Common variables
 ## AR, CXX, CC, AS, CXXFLAGS and CFLAGS can be overridden using an environment variable
 ##
-AR       := "C:/Program Files/mingw64/bin/ar.exe" rcu
-CXX      := "C:/Program Files/mingw64/bin/g++.exe"
-CC       := "C:/Program Files/mingw64/bin/gcc.exe"
+AR       := C:/mingw64/bin/ar.exe rcu
+CXX      := C:/mingw64/bin/g++.exe
+CC       := C:/mingw64/bin/gcc.exe
 CXXFLAGS :=  -g -O0 -std=c++14 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
-AS       := "C:/Program Files/mingw64/bin/as.exe"
+AS       := C:/mingw64/bin/as.exe
 
 
 ##
@@ -97,7 +97,7 @@ PreBuild:
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Notebook/Personal/SecondWorkspace/FirstProgram/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/GitHub/SecondWorkspace/FirstProgram/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

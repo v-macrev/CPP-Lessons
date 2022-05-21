@@ -1,3 +1,3 @@
-D:\Notebook\Personal\SecondWorkspace\FirstProgram\main.cpp
-D:\Notebook\Personal\SecondWorkspace\Project01\main.cpp
-D:\Notebook\Personal\SecondWorkspace\Project02\main.cpp
+C:\GitHub\SecondWorkspace\FirstProgram\main.cpp
+C:\GitHub\SecondWorkspace\Project01\main.cpp
+C:\GitHub\SecondWorkspace\Project02\main.cpp
